@@ -411,13 +411,13 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 - Portfolio: [yourportfolio.com](https://yourportfolio.com)
 - LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- Email: numanrauf826@gmail.com
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Big Byte Insights for project inspiration
+
 - OpenRouter for AI API
 - FastAPI & Python community
 
@@ -434,5 +434,3 @@ For support, email your.email@example.com or open an issue.
 Give a ⭐️ if this project helped you!
 
 ---
-
-**Built with ❤️ for Big Byte Insights Internship**
