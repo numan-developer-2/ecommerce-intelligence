@@ -1,0 +1,22 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "backdrop-filter",
+          "-webkit-backdrop-filter",
+          "-webkit-background-clip",
+          "-webkit-text-fill-color",
+          "background-clip"
+        ]
+      }
+    ],
+    "at-rule-no-unknown": null,
+    "no-descending-specificity": null,
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "value-keyword-case": null
+  }
+}

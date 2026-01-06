@@ -1,0 +1,17 @@
+[MASTER]
+ignore=.venv,venv,__pycache__,.git
+
+[MESSAGES CONTROL]
+disable=
+    C0111,  # missing-docstring
+    C0103,  # invalid-name
+    C0301,  # line-too-long
+    W0611,  # unused-import
+    W0612,  # unused-variable
+    R0913,  # too-many-arguments
+    R0914,  # too-many-locals
+    E1101   # no-member
+
+[FORMAT]
+max-line-length=120
+indent-string='    '

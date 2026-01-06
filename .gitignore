@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Data Files (exclude large datasets)
+data/raw/*.csv
+data/cleaned/*.csv
+data/models/*.pkl
+data/models/*.joblib
+*.xlsx
+*.xls
+
+# Logs
+logs/
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# API Keys (IMPORTANT!)
+*api_key*
+*secret*
+config_prod.py
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Chrome Driver (for Selenium)
+chromedriver*
+geckodriver*
+
+# Model Artifacts
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Keep folder structure but ignore content
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/models/.gitkeep
+!logs/.gitkeep
